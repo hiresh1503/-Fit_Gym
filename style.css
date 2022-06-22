@@ -1,0 +1,103 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(gym-girl-ge484b84bb_1920.jpg);
+    height: 100px;
+}
+
+.left {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.left img {
+    width: 60px;
+}
+
+.mid {
+    color: white;
+    display: block;
+    width: 45%;
+    margin: 25px auto;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    /* text-decoration: none; */
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(53, 52, 52);
+    text-decoration: overline;
+}
+
+.right {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.btn {
+    color: white;
+    margin: 5px 5px;
+    padding: 3px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(173, 170, 170);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(99, 99, 99);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 115px 70px;
+    padding: 44px 25px;
+    width: 520px;
+    border-radius: 10px;
+
+}
+
+.container h2 {
+    color: white
+}
+.container .btn{
+    margin:auto 160px;
+    margin-top: 15px;
+    width: 200px;
+    padding: 8px 20px;
+}
+
+.box input {
+    text-align: center;
+    display: block;
+    width: 270px;
+    margin: 12px auto;
+    padding: 8px 75px;
+    border-radius: 6px;
+    font-size: 14px;
+}
